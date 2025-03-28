@@ -18,3 +18,5 @@ To specify another path use the `--target-path` argument:
 ```bash
 nerve run code-audit --target-path /path/to/code
 ```
+
+The security audit findings will be automatically appended to the `AUDIT.md` file in the current working directory for easy review and documentation.
